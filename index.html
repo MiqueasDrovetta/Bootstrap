@@ -114,8 +114,8 @@
 </html>
 
 <br>
-<button type="button" class="btn btn-dark">CARRERAS</button>
 <div class="row">
+  <button type="button" class="btn btn-dark">CARRERAS</button>
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
@@ -168,29 +168,81 @@
 </html>
 
 <br>
-<button type="button" class="btn btn-dark">INFORMACIÓN</button>
-<br>
-<br>
-<div class="d-flex align-items-start">
-  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
-    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
-    <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" disabled>Disabled</button>
-    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
-    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+  <div> 
+    
+   <div class="row">  
+   <button type="button" class="btn btn-dark">INFORMACIÓN</button></div>
+   <br>
+     <div class="d-flex align-items-start">
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          
+          <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Contacto</button>
+          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">¿Preguntas?</button>
+          <button class="nav-link" id="v-pills-profile1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile1" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Ubiquenos</button>
+          <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" disabled>Proximamente</button>
+        </div>
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">IPEM 360 y Colegio Juana Martha Gonzalez
+          <br>Dirección: Defensa esquina Cacheuta B° Villa el Libertador.
+          <br> Horario: 18:00 a 22:30 hs.      
+          <br>Coordinadores de curso: Norma Ramos y Ernesto Gallo</div>
+         <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+          <div class="row">  
+            <button type="button" class="btn btn-primary">Nos contactaremos a la brevedad</button></div>
+            <br>
+                    <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4 position-relative">
+                      <label for="validationTooltip01" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="validationTooltip01" value="Ingrese por favor, se lo pido, su nombre" required>
+                      <div class="valid-tooltip">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 position-relative">
+                      <label for="validationTooltip02" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" id="validationTooltip02" value="Ingrese su apellido" required>
+                      <div class="valid-tooltip">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 position-relative">
+                      <label for="validationTooltipUsername" class="form-label">Correo Electronico</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="validationTooltipUsernamePrepend">Mail</span>
+                        <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                        <div class="invalid-tooltip">
+                          Please choose a unique and valid username.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 position-relative">
+                      <label for="validationTooltip03" class="form-label">Ciudad</label>
+                      <input type="text" class="form-control" id="validationTooltip03" required>
+                      <div class="invalid-tooltip">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3 position-relative">
+                      <label for="validationTooltip05" class="form-label">Codigo Postal</label>
+                      <input type="text" class="form-control" id="validationTooltip05" required>
+                      <div class="invalid-tooltip">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                  </form></div>
+        <div class="tab-pane fade" id="v-pills-profile1" role="tabpanel" aria-labelledby="v-pills-profile1-tab" tabindex="0"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d850.7547368352963!2d-64.21796966582629!3d-31.468664956111795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a3b07490e88b%3A0x8d98892b956aae34!2sESCUELA%20MARTHA%20JUANA%20GONZALES!5e0!3m2!1ses!2sar!4v1663360395749!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">...</div>
+        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+      </div>
+    </div>
   </div>
-  <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0"> IPEM 360
-      <br>Dirección: Defensa esquina Cacheuta B° Villa el Libertador.
-      <br> Horario: 18:00 a 22:30 hs.      
-      <br>Coordinadora de curso: Norma Ramos y Ernesto Gallo</div>
-    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
-  </div>
-</div>
 
+
+     <script src="http://maps.google.com/maps/api/js?key=AIzaSyDGwbqXIzb-1dqLmNfVlTQvm9JcHtCxAR8"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
  </body>
